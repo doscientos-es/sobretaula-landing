@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://sobretaula.es/sitemap-index.xml

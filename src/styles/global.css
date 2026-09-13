@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+:root { --ink:#17211d; --muted:#65736d; --cream:#f7f5ef; --paper:#fffdf8; --line:#dfe5df; --green:#183d31; --lime:#d7f36b; }
+html { scroll-behavior:smooth; background:var(--cream); color:var(--ink); }
+body { margin:0; font-family: Inter, ui-sans-serif, system-ui, sans-serif; background:var(--cream); }
+::selection { background:var(--lime); color:var(--ink); }
+.serif { font-family: Georgia, 'Times New Roman', serif; letter-spacing:-.045em; }
+.grid-paper { background-image: linear-gradient(var(--line) 1px,transparent 1px),linear-gradient(90deg,var(--line) 1px,transparent 1px); background-size:36px 36px; }
+.focus-ring:focus-visible { outline:3px solid #85a900; outline-offset:4px; }
+@media (prefers-reduced-motion:reduce) { *,*:before,*:after { scroll-behavior:auto!important; animation:none!important; transition:none!important; } }
