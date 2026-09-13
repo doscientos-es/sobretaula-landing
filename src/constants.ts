@@ -2,7 +2,10 @@
 export const SITE = {
   name: 'Sobretaula', legalName: 'Sobretaula Digital, S.L.', nif: 'B-00000000',
   address: 'Carrer de la Marina, 00, 08000 Barcelona, España', email: 'legal@sobretaula.es',
-  supportEmail: 'hola@sobretaula.es', domain: 'https://sobretaula.es', lastUpdated: '13 de septiembre de 2026',
+  supportEmail: 'hola@sobretaula.es',
+  phone: '+34 600 123 456',
+  whatsapp: '34600123456',
+  domain: 'https://sobretaula.es', lastUpdated: '13 de septiembre de 2026',
 } as const;
 
 export const LEGAL_DOCUMENTS = [

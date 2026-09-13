@@ -1,0 +1,8 @@
+---
+import Base from '../layouts/Base.astro';
+---
+<Base title="Sobretaula — software de gestión para restaurantes" description="Reservas, TPV, carta, operaciones y finanzas para restaurantes."><script is:inline>
+  const preferred = localStorage.getItem('sobretaula-language') || navigator.language.toLowerCase();
+  if (preferred.startsWith('ca')) window.location.replace('/ca');
+  else window.location.replace('/es');
+</script><section class="mx-auto max-w-3xl px-5 py-32 text-center lg:py-44"><p class="text-sm font-semibold text-[#718300]">Sobretaula</p><h1 class="serif mt-5 text-5xl text-[#183d31]">Software para gestionar tu restaurante con más claridad.</h1><p class="mx-auto mt-6 max-w-xl leading-7 text-[#65736d]">Elige idioma para continuar.</p><div class="mt-8 flex justify-center gap-3"><a class="focus-ring rounded-full bg-[#183d31] px-6 py-3.5 font-semibold text-white" href="/es">Español</a><a class="focus-ring rounded-full border border-[#b9c8ba] px-6 py-3.5 font-semibold text-[#183d31]" href="/ca">Català</a></div></section></Base>

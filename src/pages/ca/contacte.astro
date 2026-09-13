@@ -1,0 +1,5 @@
+---
+import Base from '../../layouts/Base.astro';
+import { SITE } from '../../constants';
+---
+<Base lang="ca" title="Parla amb Sobretaula" description="Coneix Sobretaula i descobreix com pot encaixar en el teu restaurant."><section class="mx-auto max-w-3xl px-5 py-20 lg:px-8 lg:py-28"><h1 class="serif text-6xl leading-none text-[#183d31]">Parlem del teu<br /><em class="text-[#ff5f4d]">restaurant.</em></h1><p class="mt-8 max-w-xl text-lg leading-8 text-[#65736d]">Explica'ns com treballeu avui i et mostrarem una demo centrada en la vostra operativa.</p><div class="mt-10 flex flex-wrap gap-3"><a class="focus-ring rounded-lg bg-[#ff5f4d] px-5 py-3.5 font-semibold text-white" href={`tel:${SITE.phone.replaceAll(' ','')}`}>Trucar al {SITE.phone}</a><a class="focus-ring rounded-lg border border-[#ffb0a7] px-5 py-3.5 font-semibold text-[#ff5f4d]" href={`https://wa.me/${SITE.whatsapp}?text=Hola%20Sobretaula%2C%20vull%20con%C3%A8ixer%20la%20demo`}>Escriure per WhatsApp</a></div></section></Base>
