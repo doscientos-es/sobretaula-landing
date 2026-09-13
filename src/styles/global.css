@@ -6,6 +6,7 @@ html { scroll-behavior:smooth; background:var(--cream); color:var(--ink); }
 body { margin:0; font-family: Inter, ui-sans-serif, system-ui, sans-serif; background:var(--cream); }
 ::selection { background:var(--lime); color:var(--ink); }
 .serif { font-family: Geist, ui-sans-serif, system-ui, sans-serif; font-weight: 650; letter-spacing:-.055em; }
+em { font-style: normal; }
 .grid-paper { background-image: linear-gradient(var(--line) 1px,transparent 1px),linear-gradient(90deg,var(--line) 1px,transparent 1px); background-size:36px 36px; }
 .focus-ring:focus-visible { outline:3px solid #85a900; outline-offset:4px; }
 [class*="tracking-["] { letter-spacing: normal !important; }
