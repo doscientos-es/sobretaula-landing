@@ -24,5 +24,5 @@ section[class*="bg-[#183d31]"] div.rounded-xl, section[class*="bg-[#183d31]"] di
 h1.serif { font-size:clamp(3.25rem, 7vw, 5.5rem) !important; line-height:1 !important; }
 h2.serif { font-size:clamp(2.5rem, 5vw, 4rem) !important; line-height:1.05 !important; }
 @media (prefers-reduced-motion:reduce) { *,*:before,*:after { scroll-behavior:auto!important; animation:none!important; transition:none!important; } }
-header a:first-child { font-size:0 !important; letter-spacing:0 !important; width:142px; height:32px; background:url('/icon.svg') left center / 28px 28px no-repeat; }
-header a:first-child::after { content:'SobreTaula'; margin-left:36px; font-size:1.25rem; font-weight:600; letter-spacing:-.045em; color:var(--ink); }
+header > div > a:first-child { font-size:0 !important; letter-spacing:0 !important; width:142px; height:32px; background:url('/icon.svg') left center / 28px 28px no-repeat; }
+header > div > a:first-child::after { content:'SobreTaula'; margin-left:36px; font-size:1.25rem; font-weight:600; letter-spacing:-.045em; color:var(--ink); }
